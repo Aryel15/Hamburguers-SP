@@ -1,0 +1,93 @@
+*{
+    margin:0; 
+    padding:0;
+    border: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    padding: 0 100px;
+    background-color: #343539;
+    display: flex;
+    justify-content: space-between;
+}
+header img{
+    width: 60px;
+    height: auto;
+    margin-right: 30px;
+}
+header ul{
+    display: flex;
+    list-style: none;
+}
+header ul li{
+    margin: 20px 5px 0;
+}
+nav a{
+    color: #fff;
+}
+nav a:hover{
+    color: rgb(156, 156, 156);
+}
+main{
+    padding-top: 30px;
+    text-align: center;
+}
+main ol{
+     margin-top: 50px;
+}
+main ol li{
+    margin: 15px 0;
+}
+main ol li a{
+    color:#fff;
+    background-color: black;
+    border-radius: 30px;
+    transition: 0.3s;
+    padding:5px 15px;
+}
+main ol li a:hover{
+    background-color: #4d4d4d;
+    transition: 0.3s;
+    padding:5px 20px;
+}
+footer{
+    text-align: center;
+    bottom: 0;
+    position:fixed;
+    width: 100%;
+    background-color: #343539;
+    padding: 15px 0;
+    color:#fff;
+}
+footer a{
+    color:#c4c4c4;
+    text-decoration: none;
+}
+footer a:hover{
+    text-decoration: underline #c4c4c4 solid 2px;
+}
+.materia{
+    text-align: justify;
+    display: flex;
+    justify-content: space-evenly;
+    margin:0 50px;
+}
+.texto{
+    margin-right: 40px;
+}
+.contato{
+    margin-left: 50px;
+}
+.contato a{
+    color:#4d4d4d;
+}
+.contato a:hover{
+    text-decoration: underline #4d4d4d solid 2px;
+}
